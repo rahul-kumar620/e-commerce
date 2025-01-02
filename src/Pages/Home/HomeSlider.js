@@ -121,7 +121,7 @@ const HomeSlider = () => {
               <p className="old_price">$200</p>
               <span className="new_price">$150</span>
             </div>
-            <BiSupport className="" />
+            <BiSupport />
           </div>
 
           {/* image 2 */}
