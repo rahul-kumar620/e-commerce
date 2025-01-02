@@ -7,6 +7,7 @@ import Girls from "./Pages/Girls/Girls";
 import Mens from "./Pages/Mens/Mens";
 import Womens from "./Pages/Womens/Womens";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="mens" element={<Mens />} />
             <Route path="womens" element={<Womens />} />
           </Routes>
+          <Footer />
         </div>
       </Router>
     </>

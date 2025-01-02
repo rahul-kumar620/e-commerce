@@ -6,6 +6,12 @@ import "swiper/css/autoplay";
 import "swiper/css";
 import "swiper/css/pagination";
 
+// icon section
+import { MdOutlineLocalShipping } from "react-icons/md";
+import { LiaHandHoldingUsdSolid } from "react-icons/lia";
+import { VscLock } from "react-icons/vsc";
+import { BiSupport } from "react-icons/bi";
+
 const HomeSlider = () => {
   const images = [
     {
@@ -53,10 +59,117 @@ const HomeSlider = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+        {/* banner end */}
+        {/* customber support section start */}
+        <div className="custember_section ">
+          <div className="main_item_section">
+            <MdOutlineLocalShipping className="icon_class" />
+            <div className="custember_content">
+              <p className="text_heading">Free Shiping</p>
+              <p className="text_sub">Writing Result-Orinted</p>
+            </div>
+          </div>
+
+          <div className="main_item_section">
+            <LiaHandHoldingUsdSolid className="icon_class" />
+            <div className="custember_content">
+              <p className="text_heading">Money Return</p>
+              <p className="text_sub">Writing Result-Orinted</p>
+            </div>
+          </div>
+
+          <div className="main_item_section">
+            <VscLock className="icon_class" />
+            <div className="custember_content">
+              <p className="text_heading">Secure Payment</p>
+              <p className="text_sub">Writing Result-Orinted</p>
+            </div>
+          </div>
+
+          <div className="main_item_section">
+            <BiSupport className="icon_class" />
+            <div className="custember_content">
+              <p className="text_heading">24/7Support</p>
+              <p className="text_sub">Writing Result-Orinted</p>
+            </div>
+          </div>
+        </div>
+        {/* customber support section end */}
+        {/* Daily DEALS start section */}
+        <div>
+          <div className="deals">
+            <p className="deals_heading">DAILY DEALS</p>
+            <div className="newitemsection">
+              <p>New Arrivals</p>
+              <p>Best Sellers</p>
+              <p>Sale Items</p>
+            </div>
+          </div>
+        </div>
+        {/* Daily DEALS end section */}
+
+        {/*  Item section start */}
+        <div className="item_section_start">
+          <div>
+            <img
+              src="\image\homepage\img2.jpg.jpg"
+              alt="dress"
+              className="image_section"
+            ></img>
+            <h2 className="text_section">Mens Leather Jacket</h2>
+            <div className="price_section">
+              <p className="old_price">$200</p>
+              <span className="new_price">$150</span>
+            </div>
+            <BiSupport className="" />
+          </div>
+
+          {/* image 2 */}
+          <div>
+            <img
+              src="\image\homepage\img2.jpg.jpg"
+              alt="dress"
+              className="image_section"
+            ></img>
+            <h2 className="text_section">Mens Leather Jacket</h2>
+            <div className="price_section">
+              <p className="old_price">$20</p>
+              <span className="new_price">$15</span>
+            </div>
+            <BiSupport className="" />
+          </div>
+
+          {/* image 3 */}
+          <div>
+            <img
+              src="\image\homepage\img2.jpg.jpg"
+              alt="dress"
+              className="image_section"
+            ></img>
+            <h2 className="text_section">Mens Leather Jacket</h2>
+            <div className="price_section">
+              <p className="old_price">$20</p>
+              <span className="new_price">$15</span>
+            </div>
+            <BiSupport className="" />
+          </div>
+          {/* image  */}
+          <div>
+            <img
+              src="\image\homepage\img2.jpg.jpg"
+              alt="dress"
+              className="image_section"
+            ></img>
+            <h2 className="text_section">Mens Leather Jacket</h2>
+            <div className="price_section">
+              <p className="old_price">$20</p>
+              <span className="new_price">$15</span>
+            </div>
+            <BiSupport className="" />
+          </div>
+        </div>
+        {/*  Item section end */}
       </div>
-      {/* banner end */}
-      {/* item section start */}
-      {/* <div>bhjdsjufhoswdiho</div> */}
     </>
   );
 };
